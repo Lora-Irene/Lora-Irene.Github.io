@@ -1,11 +1,39 @@
 body {
-	font-family: Nunito, sans-serif;
+	font-family: Lora, Copperplate, "Courier New", Courier, monospace;
+	margin: 0px;
+	padding: 0px;
 }
-h1,
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-family: Lora, serif;
+	font-family: Nunito, Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	font-family: Nunito, Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 900;
+	margin-left: 10px;
+}
+
+div {
+	border: solid 3px;
+	border-radius: 4px;
+	padding: 5px;
+	margin: 10px;
+}
+img {
+	border: solid 3px;
+	border-radius: 4px;
+	margin: 10px;
+}
+.caption {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-style: italic;
 }
